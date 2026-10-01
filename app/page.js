@@ -158,13 +158,13 @@ export default function Home() {
               Lamees A.
             </h1>
             <p className="text-[1rem] text-accent italic font-serif mb-6">
-              Computer Science @ Barnard College, Columbia University
+              Computer Engineering @ Columbia University
             </p>
             <p className="text-[0.975rem] text-site-text leading-[1.8] max-w-[520px]">
-              I&apos;m a computer science student interested in machine learning, computer vision,
-              and the intersection of AI and society. My work spans evaluating large
-              language models, building full-stack web applications, and experimenting with
-              hardware projects.
+              I&apos;m a computer engineering student focused on SoC design and digital VLSI,
+              with a strong interest in machine learning, computer vision, and the intersection
+              of AI and society. My work spans hardware and embedded projects, evaluating large
+              language models, and building full-stack web applications.
             </p>
             <div className="flex gap-4 mt-6 flex-wrap">
               <PillLink href="https://github.com/lamwasil2203">
@@ -211,6 +211,20 @@ export default function Home() {
               badge="Hardware / Embedded"
               description="A collection of hardware and embedded systems projects, including circuit designs, microcontroller programming, and physical computing experiments."
               tags={['Embedded Systems', 'Hardware']}
+            />
+            <ProjectCard
+              href="https://mewing-close-db8.notion.site/WeMu-35b3158f0df7800eaff9e7ff26682535"
+              name="WeMu"
+              badge="Hardware / Sound"
+              description="A performance instrument inspired by the Theremin that turns the space between two dancers into music. UWB tags worn on each dancer's arms stream distances via ESP32 into a Python sonification engine, mapping movement and proximity to pitch, loudness, and timbre in real time."
+              tags={['UWB', 'ESP32', 'Python', 'Sonification']}
+            />
+            <ProjectCard
+              href="https://www.notion.so/Pachinko-Board-34e3158f0df78063895be1bc467a22eb"
+              name="Pachinko Board"
+              badge="Hardware / Interactive"
+              description="A Milky Way–themed Pachinko board where the ball drifts like a shooting star past constellation-shaped pins. Spinning stepper-motor &quot;suns&quot; dynamically redirect its path based on live channel-tracking data broadcast over ESP-NOW."
+              tags={['ESP32', 'ESP-NOW', 'Stepper Motors', 'Embedded Systems']}
             />
           </div>
         </section>
@@ -277,7 +291,7 @@ export default function Home() {
       </main>
 
       <footer className="max-w-[800px] mx-auto px-8 py-8 text-center text-[0.8rem] text-site-muted">
-        Lamees A. · Barnard College · 2026
+        Lamees A. · Columbia University · 2026
       </footer>
 
     </div>

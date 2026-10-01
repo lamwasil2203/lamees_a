@@ -10,7 +10,7 @@ const garamond = EB_Garamond({
 
 export const metadata = {
   title: 'Lamees A.',
-  description: 'Computer Science student at Barnard College, Columbia University',
+  description: 'Computer Engineering student at Columbia University',
 }
 
 export default function RootLayout({ children }) {
